@@ -1,1 +1,2 @@
 demoing git conflicts
+branch2 changes
