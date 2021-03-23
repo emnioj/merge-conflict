@@ -1,3 +1,4 @@
+docker run --entrypoint "/bin/bash" -d 16912211/centos7-modified-with-mount:1
 docker tag 16912211/centos7-modified-with-mounts:latest 16912211/centos7-modified-with-mounts:1
 
 FROM centos:7
