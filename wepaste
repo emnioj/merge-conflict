@@ -1,3 +1,29 @@
+FROM tomcat:8.0-alpine
+
+ 
+
+LABEL maintainer="jitin.ahuja@bt.com"
+
+ 
+
+ADD client /usr/local/tomcat/webapps/client/
+
+ 
+
+EXPOSE 8080
+
+ 
+
+CMD ["catalina.sh", "run"]
+
+ 
+
+Command executed:
+
+docker build -t awrapp .
+
+docker run  -p 61111:8080 awrapp
+
 docker run --entrypoint "/bin/bash" -d 16912211/centos7-modified-with-mount:1
 docker tag 16912211/centos7-modified-with-mounts:latest 16912211/centos7-modified-with-mounts:1
 
