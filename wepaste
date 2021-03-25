@@ -1,3 +1,4 @@
+https://serverfault.com/questions/390840/how-does-one-get-tomcat-to-bind-to-ipv4-address
 FROM tomcat:8.0-alpine
 
  
